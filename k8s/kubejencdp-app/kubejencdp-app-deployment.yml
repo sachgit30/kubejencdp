@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       app: __APP_NAME__
-      updateTimestamp: "__TIMESTAMP__"
   template:
     metadata:
       labels:
